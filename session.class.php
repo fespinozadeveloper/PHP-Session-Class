@@ -66,14 +66,19 @@ class Session
         
         return FALSE;
     }
-	
-	public function restart()
+
+    public function restart()
     {
         if(self::$instance->destroy())
         {
-			self::$instance->startSession();
+		self::$instance->startSession();
         }
     }
-	
+    
+    public function reset()
+    {
+        session_reset();
+    }
+    
 }
 ?>
