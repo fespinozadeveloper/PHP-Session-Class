@@ -50,4 +50,4 @@ Simple PHP Session Class ($_SESSION)
 
 Based on the example of [linblow@hotmail.fr](mailto:linblow@hotmail.fr) in [http://php.net/manual/en/function.session-start.php#102460](http://php.net/manual/en/function.session-start.php#102460)
 
-Copyright (c) 2016, [Felipe Espinoza O.](https://github.com/fespinozadeveloper)
+Copyright (c) 2016, [fespinozadeveloper](https://github.com/fespinozadeveloper)
