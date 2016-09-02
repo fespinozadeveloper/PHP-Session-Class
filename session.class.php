@@ -23,10 +23,7 @@ class Session
     
     public function startSession()
     {
-        if($this->sessionStatus == self::SESSION_STOPED)
-        {
-            $this->sessionStatus = session_start();
-        }
+        $this->sessionStatus = session_start();
         
         return $this->sessionStatus;
     }
